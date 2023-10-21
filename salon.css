@@ -81,5 +81,13 @@ footer {
     align-items: center; /* Vertically center content */
   }
  
-/* Mobile-friendly adjustments */
-/* Add your mobile-friendly CSS here if needed */
+@media (max-width: 767px) {
+    /* Mobile-specific styles go here */
+    body {
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+    .category-buttons a {
+        padding: 5px 10px; /* Adjust button padding for smaller screens */
+    }
+}
+
